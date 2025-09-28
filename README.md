@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Duka-DL
 
 Dukascopy is known for its high-quality, tick-level historical market data, which is excellent for backtesting trading strategies. However, downloading this data for long periods is a tedious manual process of downloading, saving, and resampling individual daily files.
