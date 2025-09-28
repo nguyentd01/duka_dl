@@ -22,7 +22,7 @@ Using the tool is straightforward. You can specify a symbol, start date, and end
 To download data for `EURUSD` from January 1st, 2023 to January 31st, 2023:
 
 ```bash
-duka-dl EURUSD -s 01-01-2023 -e 31-01-2023
+duka-dl EUR-USD -s 01-01-2023 -e 31-01-2023
 ```
 
 ### Download From a Start Date to Present
@@ -30,7 +30,7 @@ duka-dl EURUSD -s 01-01-2023 -e 31-01-2023
 If you provide only a start date, the tool will automatically download data up to the most recent complete day.
 
 ```bash
-duka-dl AUDUSD -s 01-06-2024
+duka-dl EUR-USD -s 01-06-2024
 ```
 
 ### Download All Available Data
@@ -38,7 +38,7 @@ duka-dl AUDUSD -s 01-06-2024
 To download all available historical data for a symbol (the tool will find the earliest data available):
 
 ```bash
-duka-dl EURUSD --all
+duka-dl EUR-USD --all
 ```
 
 ### Save as Parquet
@@ -46,7 +46,7 @@ duka-dl EURUSD --all
 For better performance and smaller file sizes, you can save the output in Parquet format using the `-p` or `--parquet` flag:
 
 ```bash
-duka-dl EURUSD --all --parquet
+duka-dl EUR-USD --all --parquet
 ```
 
 ### Download ASK Price
@@ -54,7 +54,7 @@ duka-dl EURUSD --all --parquet
 By default, the tool downloads BID prices. To download ASK prices, use the `-m ASK` flag.
 
 ```bash
-duka-dl GBPJPY -s 01-01-2024 -m ASK
+duka-dl GBP-JPY -s 01-01-2024 -m ASK
 ```
 
 ### Help
